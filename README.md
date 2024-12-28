@@ -33,7 +33,8 @@ El proyecto de dividio en dos partes :
   - <b>FACADE</b>.
   - <b>Factory:</b> Para la creacion de vehiculos.
   - <b>Decorator:</b> Para los viajes.
-  - <b>Singleton:</b> Para el Administrador.
+  - <b>Singleton:</b> Para el Administrador.<br>
+  - Se utilizo el denominado Proceso Desciplinado de Desarrollo. En donde se utiliza una programacion basada en contratos. Para cada clase se establecio: Contrato de clase, de constructor y de metodo.<br> Cada Contrato se define estableciendo: Invariantes de Clase, Precondiciones, Postcondiciones utilizando aserciones.<br> Tambien se utilizo la herramienta <b>JavaDoc</b>.
 - Para la segunda parte se incorporaron las siguientes caracteristicas y adaptaciones:
   -  <b>Patron MVC, DAO-DTO, Observer/Observable</b>.
   -  Vistas de Usuario (GUI).
